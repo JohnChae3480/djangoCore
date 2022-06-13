@@ -163,3 +163,4 @@ cython_debug/
 # Mac
 .DS_Store
 uplodads/
+node_modules/
