@@ -12,6 +12,7 @@ django-seed = "*"
 psycopg2-binary = "*"
 django-dotenv = "*"
 requests = "*"
+pipenv-to-requirements = "*"
 
 [dev-packages]
 black = "*"
