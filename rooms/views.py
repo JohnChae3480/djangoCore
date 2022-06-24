@@ -30,7 +30,7 @@ class RoomDetail(DetailView):
 class SearchView(View):
     def get(self, request):
         country = request.GET.get("country")
-        if country
+        if country:
             form = forms.SearchForm(request.GET)
 
             if form.is_valid():
